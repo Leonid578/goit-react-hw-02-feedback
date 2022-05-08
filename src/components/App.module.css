@@ -1,7 +1,17 @@
 .container {
     width: 1100px;
     margin: 20px auto 20px auto;
+    justify-content: center;
   }
   .work {
     margin-top: 30px;
+  }
+  
+  .body {
+    background-color: antiquewhite;
+    width: 350px;
+    margin: 30px auto;
+    padding: 30px 10px;
+    box-shadow: 2px 2px 9px rgb(136, 136, 136);
+    border-radius: 10px;
   }

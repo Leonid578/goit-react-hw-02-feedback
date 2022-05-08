@@ -5,4 +5,8 @@ margin: 5px;
 :hover {
     background-color: orange;
 }
-`
+`;
+
+export const Button = style.button`
+margin: 50px;
+`;

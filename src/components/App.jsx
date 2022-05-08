@@ -3,6 +3,7 @@ import Statistics from './Statistics/Statistics';
 import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
+import style from './App.module.css'
 
 
 export class App extends Component {
@@ -26,7 +27,7 @@ export class App extends Component {
   render() {
     const {good, neutral, bad} = this.state
     return (
-      <div>
+      <div className={style.body}>
         <Section title="Please leave feedback">
           <FeedbackOptions options={this.btns()} onLeaveFeedback={this.onFeedbackHandle}/>
         </Section>

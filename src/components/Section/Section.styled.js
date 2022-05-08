@@ -10,3 +10,8 @@ border-radius: 5px;
 text-align: center
 box-shadow: -2px -2px 7px #6d6d6d;
 `
+
+export const Title= style.div`
+margin-left: auto;
+margin-right: auto;
+`

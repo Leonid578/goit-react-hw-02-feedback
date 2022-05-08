@@ -1,10 +1,10 @@
-import { SectionBox } from './Section.styled';
+import { SectionBox, Title } from './Section.styled';
 import PropTypes from 'prop-types';
 
 export default function Section({ title, children }) {
     return (
-    <SectionBox>
-        { title && <h2>{title}</h2> }
+    <SectionBox >
+        { title && <h2 className={Title}>{title}</h2>}
         {children} 
     </SectionBox>
     )
